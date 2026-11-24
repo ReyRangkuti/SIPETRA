@@ -7,8 +7,8 @@ def connectDB():
             host="localhost",
             port=5432,
             user="postgres",
-            password="rexec18",
-            dbname="sipetra"
+            password="Rangkuti#15",
+            dbname="SIPETRA"
         )
 
         cur = conn.cursor()
@@ -122,6 +122,7 @@ def login():
 
     if conn is None:
         return None
+        
 
     cursor = None
 
